@@ -5,7 +5,7 @@
 This project focuses on soil sensing using temperature and moisture sensors, integrating Raspberry Pi and Arduino to monitor and analyze soil conditions. The collected data can help in agriculture, research, and automation systems.
 
 ## 📂 Repository Structure
-Here's an overview of the files in this repository:
+Here's an overview of the files in this repository (https://github.com/ashwinashok/soilsensing):
 
 | File Name                                  | Description |
 |--------------------------------------------|------------|
@@ -21,11 +21,12 @@ Here's an overview of the files in this repository:
 To run this project, you may need the following hardware and software:
 
 ### 📌 Hardware:
-- Raspberry Pi 5 (or another compatible model)
-- Arduino board (e.g., Arduino Uno)
-- Soil moisture sensor
+- Raspberry Pi 3 and higher (we have tested this on 3B+, 4 and 5 versions)
+- Arduino board (tested on Arduino Uno. Should work on Mega as well. Not tested but should work on Micro and Teensy as well)
+- Soil moisture sensor (https://www.amazon.com/dp/B076DDWDJK?ref=nb_sb_ss_w_as-reorder_k0_1_12&amp=&crid=9ADM09XBGN46&amp=&sprefix=soil+mositer)
 - Temperature sensor (e.g., DHT11, DS18B20)
-- Jumper wires
+- Jumper cables
+- Resistors or Potentiometer
 
 ### 📌 Software:
 - Arduino IDE
